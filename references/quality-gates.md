@@ -23,3 +23,7 @@ Inside exported article content reject `style`, `script`, `iframe`, `object`, `e
 Render at 375px. Check headline wrapping, body size and contrast, long paragraphs, SVG/image scaling, captions, overflow, dark-mode-sensitive colors, and clean copied payload. Deliver with zero known blocking errors.
 
 For revisions, verify the new version visibly differs in the requested area. Use a new filename or explicit cache-busting revision. Test the copy button after its label or payload changes. A self-contained copy deliverable has no unresolved local or remote image references.
+
+## Cover inspection
+
+Verify the wide cover and exact center-square crop separately. The main title, face, product, and interaction cue must remain inside the square-safe zone. Deliver a safe-area proof image; do not claim crop safety from visual intuition alone. Generated backgrounds contain no accidental text or logos, and final Chinese typography is applied deterministically.

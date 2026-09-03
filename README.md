@@ -11,7 +11,8 @@ Most formatters start with a theme. This project starts with the article: diagno
 3. After direction selection, present three compatible color systems.
 4. Let the author choose both direction and palette before final design begins.
 5. Produce one design recipe and one image plan.
-6. Compose a self-contained, WeChat-safe inline HTML deliverable and verify it at mobile width.
+6. Design a 900×383 cover with an independently verified center-square crop.
+7. Compose a self-contained, WeChat-safe inline HTML deliverable and verify it at mobile width.
 
 The goal is **continuity without sameness**: one publication identity, different editorial experiences for different articles.
 

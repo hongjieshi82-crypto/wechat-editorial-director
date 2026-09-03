@@ -41,7 +41,13 @@ Read [references/visual-direction.md](references/visual-direction.md). Create `i
 
 Prefer real user-owned screenshots for product claims; static SVG for relationships; charts only with verified data; photography or generated illustration for atmosphere. **Visually inspect every candidate image before using it**; filenames and repository context are not enough. If the user asks for a cartoon, photo, or standalone illustration, use an image-generation workflow rather than substituting an SVG mockup. Never fabricate evidence, logos, quotations, or data. Whitespace is a valid visual decision.
 
-### 6. Compose, package, validate, and preview
+### 6. Design the cover as a dual-crop system
+
+For a complete WeChat article request, read [references/cover-system.md](references/cover-system.md) and deliver a cover unless the user opts out. The wide cover and the square share thumbnail are one composition, not independent afterthoughts.
+
+Keep the title, face, product, and symbolic action inside the center square-safe zone of the wide cover. Side regions contain expendable atmosphere only. Generate or source the visual without Chinese text, then add title typography deterministically. Export the wide cover, center-square crop, and a safe-area proof image. Visually inspect all three.
+
+### 7. Compose, package, validate, and preview
 
 Create semantic HTML with `data-wx-role`, then apply the recipe as inline styles. A preview shell may use CSS/JavaScript outside article markers; the copied article may not. Read [references/quality-gates.md](references/quality-gates.md), run checks, and inspect at 375px width.
 
@@ -49,9 +55,9 @@ Use a new versioned filename for every user-facing revision (`article-v2.html`, 
 
 Do not call an artifact complete until the rendered page visibly contains the newly requested changes and the copy action has been tested.
 
-### 7. Deliver
+### 8. Deliver
 
-Deliver the diagnosis, selected direction and palette, design recipe, image plan, clean HTML, self-contained copy-preview page, and a mobile render. Publishing is separate and requires an explicit request and credential check.
+Deliver the diagnosis, selected direction and palette, design recipe, image plan, wide cover, square crop, safe-area proof, clean HTML, self-contained copy-preview page, and a mobile render. Publishing is separate and requires an explicit request and credential check.
 
 ## Continuity without sameness
 
