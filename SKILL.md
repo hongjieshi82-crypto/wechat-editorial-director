@@ -39,6 +39,8 @@ Read [references/semantic-components.md](references/semantic-components.md) for 
 
 Read [references/visual-direction.md](references/visual-direction.md). Create `image-plan.md` before sourcing or generation. Every visual must do one job: **prove, explain, orient, evoke, or pace**.
 
+If `smart-illustrator` is installed, read [references/smart-illustrator-integration.md](references/smart-illustrator-integration.md) and use it only as an optional illustration auditor and diagram router. It does not replace the selected editorial direction, palette, cover system, or this skill's quality gates.
+
 Prefer real user-owned screenshots for product claims; static SVG for relationships; charts only with verified data; photography or generated illustration for atmosphere. **Visually inspect every candidate image before using it**; filenames and repository context are not enough. If the user asks for a cartoon, photo, or standalone illustration, use an image-generation workflow rather than substituting an SVG mockup. Never fabricate evidence, logos, quotations, or data. Whitespace is a valid visual decision.
 
 ### 6. Design the cover as a dual-crop system

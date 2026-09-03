@@ -16,6 +16,10 @@ Most formatters start with a theme. This project starts with the article: diagno
 
 The goal is **continuity without sameness**: one publication identity, different editorial experiences for different articles.
 
+## Optional illustration companion
+
+The studio can optionally consult [Smart Illustrator](https://github.com/axtonliu/smart-illustrator) for illustration-position auditing and Excalidraw/Mermaid diagram routing. It remains a separate dependency and does not replace this project's editorial direction, palette selection, dual-crop WeChat cover, or quality gates.
+
 ## Author
 
 Created by [hongjieshi82-crypto](https://github.com/hongjieshi82-crypto).
