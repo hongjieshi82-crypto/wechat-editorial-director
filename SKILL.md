@@ -45,9 +45,11 @@ Prefer real user-owned screenshots for product claims; static SVG for relationsh
 
 ### 6. Design the cover as a dual-crop system
 
-For a complete WeChat article request, read [references/cover-system.md](references/cover-system.md) and deliver a cover unless the user opts out. The wide cover and the square share thumbnail are one composition, not independent afterthoughts.
+For a complete WeChat article request, read [references/cover-system.md](references/cover-system.md) and [references/cover-refinement.md](references/cover-refinement.md), then deliver a cover unless the user opts out. The wide cover and the square share thumbnail are one composition, not independent afterthoughts.
 
-Keep the title, face, product, and symbolic action inside the center square-safe zone of the wide cover. Side regions contain expendable atmosphere only. Generate or source the visual without Chinese text, then add title typography deterministically. Export the wide cover, center-square crop, and a safe-area proof image. Visually inspect all three.
+Use a mandatory two-pass process: **concept draft → written visual diagnosis → refinement redraw**. Preserve what already works in the draft and target only the diagnosed weaknesses. Do not respond to a weak cover by repeatedly inventing unrelated compositions.
+
+Keep the title, face, product, and symbolic action inside the center square-safe zone of the wide cover. Side regions contain expendable atmosphere only. Treat title integration as an art-direction problem; a generic dark title box is not the default solution. Export the wide cover, center-square crop, and a safe-area proof image. Visually inspect all three.
 
 ### 7. Compose, package, validate, and preview
 
@@ -55,7 +57,7 @@ Create semantic HTML with `data-wx-role`, then apply the recipe as inline styles
 
 Use a new versioned filename for every user-facing revision (`article-v2.html`, not an overwritten ambiguous preview). For a promised "direct-copy" deliverable, package local images into a self-contained HTML file with `scripts/package_single_file.py`; do not leave `file://` or relative image dependencies in the copy payload. Remove discarded or hidden visual prototypes instead of merely hiding them.
 
-Do not call an artifact complete until the rendered page visibly contains the newly requested changes and the copy action has been tested.
+Do not call an artifact complete until the rendered page visibly contains the newly requested changes and the copy action has been tested. A first-generation cover is explicitly a draft, never the final cover.
 
 ### 8. Deliver
 

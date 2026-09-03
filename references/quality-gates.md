@@ -26,4 +26,6 @@ For revisions, verify the new version visibly differs in the requested area. Use
 
 ## Cover inspection
 
-Verify the wide cover and exact center-square crop separately. The main title, face, product, and interaction cue must remain inside the square-safe zone. Deliver a safe-area proof image; do not claim crop safety from visual intuition alone. Generated backgrounds contain no accidental text or logos, and final Chinese typography is applied deterministically.
+Verify the wide cover and exact center-square crop separately. The main title, face, product, and interaction cue must remain inside the square-safe zone. Deliver a safe-area proof image; do not claim crop safety from visual intuition alone. Generated backgrounds contain no accidental text or logos. Accept generated Chinese typography only when every character is exact; otherwise composite it deterministically into designed negative space.
+
+Reject a cover that has no v1 diagnosis and refinement pass. Confirm that v2 preserves the successful concept while visibly improving the recorded problems. Check title integration, focal hierarchy, lighting depth, prop grouping, character anatomy, unintended generated text, and recognizable brand marks. Deterministic typography is preferred when generated title text is not exact, but it must use designed negative space rather than a generic overlay box.
