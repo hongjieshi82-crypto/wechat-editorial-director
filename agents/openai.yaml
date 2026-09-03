@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信公众号设计工作室"
+  short_description: "先选编辑方向与配色，再统一完成公众号排版配图"
+  default_prompt: "读取这篇文章，先给我三个真正不同的编辑方向；我选定后再提供三套适配色彩，最后完成排版和配图。"
