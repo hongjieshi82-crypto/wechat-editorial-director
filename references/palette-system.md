@@ -39,6 +39,7 @@ Every palette proposal defines:
 - Editorial column: near-monochrome ink plus one editorial signal color.
 - Evidence dossier: high-contrast neutrals with accessible chart series.
 - Cultural magazine: atmospheric palette derived from the cover image.
+- Scenic portal: propose atmosphere systems, not merely hex swaps. Light, weather, depth, and scene temperature should change together while preserving the editorial frame.
 
 ## Contrast gate
 

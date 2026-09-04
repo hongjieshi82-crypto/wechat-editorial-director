@@ -26,6 +26,10 @@ Executive finding → evidence groups → comparison → implication. Use metric
 
 Atmosphere → scene → idea → resonance. Use an image-led opener, cinematic pacing, chapter spreads, photography or editorial illustration. Memorable; less efficient for dense facts.
 
+## Scenic portal
+
+One framing metaphor → immersive scene → narrow centered promise → quiet action or transition. The visual frame must belong to the article's story—a window, doorway, screen, telescope, map fold, book spread, or other portal—rather than serving as decoration. Use one full-width precomposed scene for the opening or a major chapter break, with very few words and strong atmosphere. Read [scenic-immersion.md](scenic-immersion.md). Memorable and emotionally immediate; unsuitable for evidence-dense or step-heavy sections.
+
 ## Newsroom signal brief
 
 What happened → what matters → noise → what to watch. Use a timestamped lead, signal/noise split, timeline, source captures, and watchlist. Immediate; dates quickly.

@@ -50,6 +50,7 @@ The builder recognizes `data-wx-role`. The semantic source should contain struct
 | `terminal-body` | `section` | terminal content |
 | `figure` | `section` | image or SVG wrapper |
 | `caption` | `p` | figure caption |
+| `chapter-plate` | `img` or `section` | precomposed immersive scene used as an opener or major transition |
 | `summary` | `section` | closing synthesis |
 | `summary-title` | `p` | closing heading |
 | `summary-text` | `p` | closing copy |
@@ -65,6 +66,7 @@ The builder recognizes `data-wx-role`. The semantic source should contain struct
 - Use section headers only at real topic transitions.
 - A feature list of three or more items becomes `feature-grid`; a sequential procedure becomes `steps`.
 - Use `callout` for a conclusion or practical warning, not decorative repetition.
+- Use no more than one opening `chapter-plate` plus one major transition plate in a normal article. It must be a precomposed image, not CSS-dependent background layering.
 - For SVG elements, put the role on the exact shape or text node so the theme can set `fill` or `stroke`.
 - Do not encode theme names in article copy.
 

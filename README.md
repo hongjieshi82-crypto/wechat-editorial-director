@@ -16,6 +16,8 @@ Most formatters start with a theme. This project starts with the article: diagno
 
 The goal is **continuity without sameness**: one publication identity, different editorial experiences for different articles.
 
+The art-direction library includes a Scenic Portal option for image-led stories: one story-specific framing metaphor, a full-width atmospheric plate, and a narrow centered promise. Web-style layered video and glass effects are flattened into a WeChat-safe static image rather than copied as fragile HTML.
+
 ## Optional illustration companion
 
 The studio can optionally consult [Smart Illustrator](https://github.com/axtonliu/smart-illustrator) for illustration-position auditing and Excalidraw/Mermaid diagram routing. It remains a separate dependency and does not replace this project's editorial direction, palette selection, dual-crop WeChat cover, or quality gates.

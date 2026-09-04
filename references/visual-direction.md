@@ -23,3 +23,5 @@ Use one image grammar per issue: shared crop logic, stroke weight, annotations, 
 For generated art, specify subject, role, composition, palette relationship, texture, ratio, safe area, and exclusions. Add Chinese typography deterministically rather than relying on image generation.
 
 After generation, inspect the image at article scale, move the selected final into the article asset directory, compress it for the intended route, and update the consuming HTML. A generated image is not delivered merely because it appeared in chat.
+
+For an image-led article or chapter opener, consider the Scenic Portal method in [scenic-immersion.md](scenic-immersion.md). It uses atmosphere and a story-specific framing device to replace generic Hero cards, but must be precomposed into a static image for WeChat reliability.
