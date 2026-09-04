@@ -61,6 +61,8 @@ The refinement prompt must contain:
 
 Refine when the scene, metaphor, or subject relationship already works. Regenerate only when the core concept is wrong, misleading, unusable, or rejected by the user as a direction. Do not discard a working concept merely because finish is weak.
 
+When the user rejects the visual direction itself—such as “too generic,” “too much like a product ad,” or “this feeling is wrong”—return to the article-specific metaphor and change the concept family. Do not keep recoloring or polishing the rejected composition.
+
 ## Completion rule
 
 The cover is final only after:

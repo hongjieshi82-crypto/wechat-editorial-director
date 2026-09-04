@@ -22,6 +22,7 @@ The left and right wings may hold lighting, texture, shelves, scenery, or other 
 
 1. Derive the cover concept from the selected editorial direction, palette, reader promise, and image grammar.
 2. Produce **concept draft v1**. Its job is to establish what the scene contains, the focal group, broad lighting, and crop-safe geometry. It is not a deliverable.
+   Before refinement, apply a concept-specificity gate: could this image advertise many unrelated products after changing only the title? If yes, it is generic category imagery and must be reconceived rather than polished. The cover needs one visual metaphor, action, object relationship, or evidence cue that belongs to this article.
 3. Inspect v1 and write `cover-review.json` using [cover-refinement.md](cover-refinement.md). Name the strengths to preserve and the defects to fix.
 4. Use v1 as the edit/reference target for **refinement redraw v2**. The prompt must explicitly preserve the successful scene and focal composition while fixing hierarchy, title integration, lighting, depth, clutter, anatomy, and finish.
 5. Inspect v2. Allow at most one additional targeted refinement by default; do not enter an open-ended regeneration loop.
@@ -63,3 +64,4 @@ The cover shares character design, illustration medium, stroke/texture, and pale
 - title treatment belongs to the composition instead of floating above it;
 - any model-generated text is character-for-character correct;
 - no unintended brand mark, book text, poster copy, or UI label remains.
+- the core cover concept is specific to the article rather than a generic laptop, desk, portrait, gradient, or stock-product scene;

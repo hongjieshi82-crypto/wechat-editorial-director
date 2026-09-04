@@ -1,6 +1,6 @@
 # Visual direction
 
-Plan visuals after direction selection and before generation.
+Plan visuals after direction, palette, and visual-system selection and before generation. Read [visual-system.md](visual-system.md) first.
 
 For each visual record: location, narrative purpose, type, source, exact content, caption, aspect ratio, mobile crop, style relationship, and factual/copyright risk.
 
@@ -18,9 +18,9 @@ Use raster image generation for a requested cartoon, photo, textured editorial i
 
 The cover establishes tone; it must not masquerade as evidence. An explanation image reduces cognitive load and uses the aspect ratio the information needs. A screenshot proves behavior and must never be generated.
 
-Use one image grammar per issue: shared crop logic, stroke weight, annotations, caption voice, and tonal treatment. Do not target a fixed count; one cover plus zero to four body visuals is only a common range.
+Use one image grammar per issue: shared source strategy, style anchor, medium, crop logic, stroke or lighting behavior, annotations, caption voice, and tonal treatment. The cover and inline images must be visibly related. Do not target a fixed count; one cover plus zero to four body visuals is only a common range.
 
-For generated art, specify subject, role, composition, palette relationship, texture, ratio, safe area, and exclusions. Add Chinese typography deterministically rather than relying on image generation.
+For generated art, specify subject, role, composition, palette relationship, texture, ratio, safe area, exclusions, and the selected style anchor. Add Chinese typography deterministically rather than relying on image generation.
 
 After generation, inspect the image at article scale, move the selected final into the article asset directory, compress it for the intended route, and update the consuming HTML. A generated image is not delivered merely because it appeared in chat.
 
